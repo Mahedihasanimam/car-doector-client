@@ -12,7 +12,7 @@ const Header = () => {
       <div className="carousel w-full rounded-md ">
         <div
           id="slide1"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:lg:max-h-[650px] h-screen "
         >
           <img src={image5} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -23,18 +23,18 @@ const Header = () => {
               <IoIosArrowRoundForward size={30}/>
             </a>
           </div>
-          <div className="flex flex-col justify-center items-start lg:w-1/2 md:w-2/3 w-9/12 lg:px-16 px-6 space-y-6 absolute text-white bg-gradient-to-r from-black h-full">
-            <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
+          <div className="flex flex-col justify-center items-start lg:w-1/2 md:w-2/3 w-9/12 lg:px-16 px-4 lg:space-y-6 space-y-2 absolute text-white bg-gradient-to-r from-black h-full">
+            <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
         <div
           id="slide2"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:max-h-[650px]"
         >
           <img src={image2} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -49,14 +49,14 @@ const Header = () => {
             <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
         <div
           id="slide3"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:max-h-[650px]"
         >
           <img src={image3} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -71,14 +71,14 @@ const Header = () => {
             <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
         <div
           id="slide4"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:max-h-[650px]"
         >
           <img src={image4} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -93,14 +93,14 @@ const Header = () => {
             <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
         <div
           id="slide5"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:max-h-[650px]"
         >
           <img src={image1} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -115,14 +115,14 @@ const Header = () => {
             <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
         <div
           id="slide6"
-          className="carousel-item relative w-full  max-h-[650px]"
+          className="carousel-item relative w-full  lg:max-h-[650px]"
         >
           <img src={image6} className="w-full" />
           <div className="absolute flex justify-end  left-2 right-5 bottom-16 gap-8 mr-4 ">
@@ -137,8 +137,8 @@ const Header = () => {
             <h1 className="lg:text-6xl text-4xl font-bold">Affordable Price For Car Servicing</h1>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
            <div className="flex justify-between gap-6"> 
-           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none text-lg">Discover More</button>
-            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold text-lg">Latest Project</button>
+           <button className="btn bg-[#FF3811] hover:rounded-sm hover:outline-[#FF3811] hover:bg-transparent text-white font-bold rounded-sm outline-none border-none lg:text-lg">Discover More</button>
+            <button className="btn rounded-sm outline-[#FF3811] hover:bg-[#FF3811] bg-transparent text-white font-bold lg:text-lg">Latest Project</button>
            </div>
           </div>
         </div>
